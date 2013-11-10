@@ -1,0 +1,209 @@
+---
+
+## BASE STRUCTURES ##
+
+nicks:
+ - "{name} the {adjective phrase}"
+ - "The {noun phrase} of {concept}"
+ - "{doer} of {concept}"
+ - "{doer}"
+ - "{concept}"
+ - "{name}"
+ - "{predefined}"
+
+
+## PHRASES ##
+
+doer:
+ - "{verb}er"
+ - "{adjective phrase} {verb}er"
+ - "{name}, {verb}er"
+ - "{name}, {adjective phrase} {verb}er"
+name:
+ - "{male name}"
+ - "{female name}"
+ - "{male title} {male name}"
+ - "{female title} {female name}"
+concept:
+ - "{abstract noun}"
+ - "{adjective phrase} {abstract noun}"
+ - "{verb}ing"
+ - "{adjective phrase} {verb}ing"
+noun phrase:
+ - "{noun}"
+ - "{adjective phrase} {noun}"
+verb phrase:
+ - "{verb}"
+adjective phrase:
+ - "{adjective}"
+ - "{adverb} {adjective}"
+
+
+## WORDS ##
+
+title:
+ - President
+ - Prime Minister
+ - Minister
+ - Abbot
+ - Chief
+ - Master
+female title:
+ - "{title}"
+ - Queen
+ - Baroness
+ - Lordess
+ - Countess
+ - Duchess
+ - Empress
+ - Princess
+male title:
+ - "{title}"
+ - King
+ - Baron
+ - Lord
+ - Count
+ - Duke
+ - Emperor
+ - Prince
+male name:
+ - Alfred
+ - Bob
+ - Dirk
+ - Eggbert
+ - Fred
+ - Gary
+ - Gaylord
+ - Morgo
+ - Molbar
+ - Stevetina
+ - Winston
+ - Wilfred
+ - Xavier
+female name:
+ - Alice
+ - Carol
+ - Dirkette
+ - Eve
+ - Fredette
+ - Helga
+ - Mal
+ - Bitchtina
+ - Stevetina
+verb:
+ - Destroy
+ - Fight
+ - Kill
+ - Annhilate
+ - Craft
+ - Stab
+ - Bring
+ - Covet
+noun:
+ - Breakfast
+ - Carpet Stain
+ - Bowel Obstruction
+ - Stain
+ - Virus
+ - Herpes
+ - Sword
+ - Shield
+ - Badge
+ - Bullet
+ - Dagger
+ - Armor
+ - Shoes
+ - Trial
+ - Hell
+ - Ointment
+ - Waffle
+ - Herpes
+ - Infection
+ - Disease
+abstract noun:
+ - Misery
+ - Death
+ - Pestilence
+ - Violence
+ - Justice
+ - Strength
+ - Heroism
+ - Annhilation
+adverb:
+ - Highly
+ - Slightly
+ - Incredibly
+ - Hellishly
+ - Maddeningly
+ - Fabulously
+adjective:
+ - Diseased
+ - Mad
+ - Fabulous
+ - Just
+ - Unjust
+ - Judicious
+ - Fleshy
+ - Awesome
+ - "Awe-inspiring"
+ - Insipid
+ - Competent
+ - Adequate
+ - Painful
+ - Unrepentant
+ - Unrelenting
+ - Great
+ - Good
+ - Poor
+ - Incredible
+ - Amorous
+ - Heroic
+ - Stupendous
+ - Splendiforous
+ - Shining
+ - Unceasing
+ - Unstoppable
+ - Indefatigable
+ - Incompetent
+ - Stupid
+ - Impotent
+ - Unaware
+ - Daft
+ - Sparkling
+
+
+## PREDEFINED NICKNAMES ##
+
+predefined:
+ - Citizen Stain
+ - "[Never-Nude] Unbareable"
+ - "[Wine Lovers] Terriorist"
+ - "[Dog Lovers] Terrierist"
+ - 1998 World Spooning Champion
+ - It Wasn't Me
+ - Master Debater
+ - That's Definitely Infected
+ - I Swear It's Not Infected
+ - I Swear It's Not A Disease
+ - I Swear It Wasn't Me
+ - I Swear It's Not {noun}
+ - That Looked Like It Hurt
+ - World Turing Test Champion
+ - "{noun} Are Friends, Not Food"
+ - Mother Hugger
+ - Mugger Hugger
+ - Flesh Wound
+ - Love-Hat Relationship
+ - Random Access Mammary
+ - Better Than Herpes
+ - SIGTERM
+ - SIGKILL
+ - SIGHUP
+ - sudo rm -rf /
+ - Kernel Panic
+ - Twatwaffle
+ - Waffle Brothel
+ - "20th Century Farce"
+ - Helen Killer
+ - Flying Sketti Monster
+
