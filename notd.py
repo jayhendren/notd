@@ -2,6 +2,7 @@
 import random
 import yaml
 import string
+import sys
 import os
 
 root = os.path.dirname(__file__)
@@ -27,9 +28,16 @@ def substitute(line, mapping):
         result = tmp
     return result
    
+def makenames(filename, count=1):
+    f = open(filename)
+    d = yaml.load(f)
+    for i in range(count):
+        nick = randline(d['nicks'])
+        print substitute(nick, d)
 
 if __name__ == '__main__':
-    f = open(names_file)
-    d = yaml.load(f)
-    nick = randline(d['nicks'])
-    print substitute(nick, d)
+    try:
+        count = int(sys.argv[1])
+    except:
+        count = 1
+    makenames(names_file, count)

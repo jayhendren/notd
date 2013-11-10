@@ -11,7 +11,9 @@ Requires [PyYaml](http://pyyaml.org/).
 Usage
 ----
 
-    /path/to/notd.py
+    /path/to/notd.py [count]
+
+Prints `count` number of names, or one name if count is omitted or cannot be interpreted as a number.
 
 
 Examples
