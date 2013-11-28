@@ -5,6 +5,8 @@
 nicks:
  - "{name} the {adjective}"
  - "{name} the {adjective phrase}"
+ - "{male name}, {male title} of the {noun phrase}s"
+ - "{female name}, {female title} of the {noun phrase}s"
  - "The {noun phrase} of {concept}"
  - "{doer} of {concept}"
  - "{doer}"
@@ -50,6 +52,10 @@ title:
  - Chief
  - Master
  - Doctor
+ - Leader
+ - Dictator
+ - Revered Leader
+ - Honored Leader
 female title:
  - "{title}"
  - Queen
@@ -59,6 +65,8 @@ female title:
  - Duchess
  - Empress
  - Princess
+ - Miss
+ - Madame
 male title:
  - "{title}"
  - King
@@ -68,7 +76,10 @@ male title:
  - Duke
  - Emperor
  - Prince
+ - Mister
+ - Sir
 male name:
+ - Battlebeard
  - Alfred
  - Bob
  - Dirk
@@ -283,6 +294,8 @@ male name:
  - Homer
  - Ryan
 female name:
+ - Molly
+ - Battlebeard
  - Alice
  - Carol
  - Dirkette
